@@ -1,0 +1,88 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bg1{
+    position: relative;
+    background-image: url(homebg.png);
+    height: 120vh;
+    margin-top: -18vh;
+    margin-right: -3vh;
+    margin-left: -3vh;   
+}
+.main{
+    color: white;
+    margin-top: 18vh;
+    margin-left: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10vh;
+}
+#name{
+    font-size: 15vh;
+    margin-top: 0vh;
+    color: #FF8E4F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#welcome {
+    text-align: center;
+    font-size: 5vh;
+}
+#about {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bg2{
+    background-image: url(servicebg1.png);
+    height: 100vh;
+    margin-right: -3vh;
+    margin-left: -3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#intro{
+    text-align: center;
+    color: white;
+    padding-top: 5vh;
+}
+#icon1 {
+   
+    padding-left: 8vh;
+}
+#icon2 {
+    padding-left: 6.5vh;
+}
+#icon3 {
+    padding-left: 3vh;
+}
+#caption1{
+    color: white;
+    font-size: 3.5vh;
+}
+#caption2{
+    color: white;
+    font-size: 3.5vh;
+}
+#caption3{
+    color: white;
+    font-size: 3.5vh;
+}
+#div1 {
+    width: 46vh;
+    height: 10vh;
+    float: left;
+    padding-left: 22vh;
+    padding-top: 20vh;
+}
+#div2 {
+    width: 45vh;
+    height: 10vh;
+    padding-left: 23vh;
+    padding-top: 20vh;
+    float: right;
+    float: left;
+}
+#div3 {
+    width: 51vh;
+    height: 10vh;
+    padding-left: 20vh;
+    padding-top: 20vh;
+    float: left;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="transfer.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfer Money</title>
+    <style>
+        a:hover {
+    color: blue;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="topleft"><img src="bank.png"><b>Bengal National Bank</b></div>
+        <div class="topright"> <a href="home.html">HOME</a> &nbsp &nbsp &nbsp <a href="all.php">ALL CUSTOMERS</a>&nbsp &nbsp &nbsp <a href="onecust.html">ONE CUSTOMER</a> </div>
+    </div>
+    <h1>TRANSFER MONEY</h1>
+
+    <center> 
+    <form action="transferphp.php">
+        <table>
+            <tr>
+                <th>From: </th>
+                <td> <input type="text" placeholder="Enter Customer ID" name="from" required> </td>
+            </tr>
+            <tr>
+                <th>To: </th>
+                <td> <input type="text" placeholder="Enter Customer ID" name="to" required> </td>
+            </tr>
+            <tr>
+                <th>Amount: </th>
+                <td> <input type="text" name="amount" required> </td>
+            </tr>
+        </table><br><br>
+        <input type="submit" value="Transfer">
+
+    </form>
+</center>
+    
+</body>
+</html>

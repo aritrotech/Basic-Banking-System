@@ -1,0 +1,11 @@
+body {
+    background-image: url(custbg.png);
+}
+
+table{
+    color: white;
+}
+#div1 {
+    margin-top: 24.8vh;
+    margin-left: 45vh;
+}

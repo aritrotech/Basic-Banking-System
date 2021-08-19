@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | BNB</title>
+</head>
+<body>
+    <div id="bg1">  
+    <div class="main">
+        <p>YOUR TRUSTED BANK THROUGHOUT THE YEAR</p>
+        <h1 id="name">Bengal <br> National <br>Bank</h1>
+    </div> 
+</div>
+
+<div id="about" >
+    <h1 id="welcome">Welcome to BNB Online Portal!</h1>
+    <p style="font-size: 4vh;">Bengal National Bank is East India's largest bank with its services spread all over the world. It has the country's most satisfied customer base.</p> <p style="font-size: 4vh;">Bengal National Bank currently has a network of 5,469 branches and 19,843 ATMs across India. </p> <p style="font-size: 4vh;">  Bengal National Bank offers a wide range of banking products and financial services to corporate and retail customers through a variety of delivery channels and through its group companies.</p>
+
+</div>
+
+<div id="bg2">
+    <h1 id="intro">Our Services</h1>
+        <div id="div1">
+            <a href="all.php">
+            <img src="mgglass2.png" id="icon1" onmouseover="mouseHover1()" onmouseout="mouseOut1()" alt=""></a><br>
+            <h2 id="caption1">View All Customers</h2>
+        </div>
+        <div id="div2">
+            <a href="onecust.html">
+            <img src="man1.png" id="icon2" onmouseover="mouseHover2()" onmouseout="mouseOut2()" alt=""></a><br>
+            <h2 id="caption2">View One Customer</h2>
+        </div>
+        <div id="div3">
+            <a href="transfer.html">
+            <img src="transaction.png" id="icon3" onmouseover="mouseHover3()" onmouseout="mouseOut3()" height="128px" width="128px" alt=""></a><br>
+            <h2 id="caption3">Transfer Money</h2>
+        </div>
+</div>
+
+<script type="text/javascript">
+    function mouseHover1()
+    {
+        var x = document.getElementById("icon1");
+        x.style.height = "170px";
+        x.style.width = "170px";
+        var m = document.getElementById("caption1");
+        m.style.fontSize = "4.7vh";
+    }
+    function mouseOut1()
+    {
+        var y = document.getElementById("icon1");
+        y.style.height = "128px";
+        y.style.width = "128px";
+        var n = document.getElementById("caption1");
+        n.style.fontSize = "3.5vh";
+    }
+
+    function mouseHover2()
+    {
+        var x = document.getElementById("icon2");
+        x.style.height = "170px";
+        x.style.width = "170px";
+        var m = document.getElementById("caption2");
+        m.style.fontSize = "4.7vh";
+    }
+    function mouseOut2()
+    {
+        var y = document.getElementById("icon2");
+        y.style.height = "128px";
+        y.style.width = "128px";
+        var n = document.getElementById("caption2");
+        n.style.fontSize = "3.5vh";
+    }
+
+    function mouseHover3()
+    {
+        var x = document.getElementById("icon3");
+        x.style.height = "170px";
+        x.style.width = "170px";
+        var m = document.getElementById("caption3");
+        m.style.fontSize = "5vh";
+    }
+    function mouseOut3()
+    {
+        var y = document.getElementById("icon3");
+        y.style.height = "128px";
+        y.style.width = "128px";
+        var n = document.getElementById("caption3");
+        n.style.fontSize = "3.5vh";
+    }
+
+</script>
+
+</body>
+</html>
